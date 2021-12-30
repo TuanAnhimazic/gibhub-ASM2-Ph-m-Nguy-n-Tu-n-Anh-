@@ -1,0 +1,37 @@
+.product-list {}
+
+.product {}
+
+.product:hover {
+    background-color: bisque;
+    cursor: pointer;
+}
+
+.product-img img {
+    width: 100%;
+}
+
+.product-name {
+    font-weight: bold;
+    color: greenyellow;
+}
+
+.product-category {
+    color: gold;
+}
+
+.product-price {
+    color: red;
+}
+
+body {
+    background-image: url("https://wallpaper8k.com/inside/categories/34/4566_uhd-4k-wallpaper-06.jpg");
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
